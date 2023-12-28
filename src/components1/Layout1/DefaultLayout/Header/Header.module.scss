@@ -1,0 +1,58 @@
+.wrapper {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    z-index: 1000; /* Đảm bảo header ở trên cùng của mọi thứ khác */
+    padding: bottom 20px;
+}
+
+.logo {
+    flex: 1;
+}
+
+.navigation {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+header a:hover {
+    background-color: #555;
+}
+
+img {
+    height: 50px;
+}

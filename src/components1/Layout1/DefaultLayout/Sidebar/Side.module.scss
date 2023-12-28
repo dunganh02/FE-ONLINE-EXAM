@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+
+aside {
+    margin-top: 70px;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px;
+    border-bottom: 1px solid #555;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
